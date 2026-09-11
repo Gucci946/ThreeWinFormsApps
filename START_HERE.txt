@@ -1,0 +1,19 @@
+KUIDAS KÄIVITADA
+
+1. Paki ZIP lahti täiesti uude kausta.
+2. Ava fail ThreeWinFormsApps.sln Visual Studios.
+3. Sulge vana sama nimega lahendus, kui see on lahti.
+4. Lahenduste uurijas tee projektil ThreeWinFormsApps paremklõps ja vali "Set as Startup Project".
+5. Vali "Build -> Rebuild Solution".
+6. Käivita klahviga F5.
+
+KUI VISUAL STUDIO NÄITAB VANA VIGA:
+
+- Sulge Visual Studio.
+- Kustuta uue projekti kaustast peidetud .vs kaust, kui see tekib.
+- Kustuta bin ja obj kaustad, kui need on olemas.
+- Ava uuesti ThreeWinFormsApps.sln.
+- Ära ava vana Naidis_IKTpv25_Windows_Forms lahendust.
+
+Projekt kasutab .NET 8 Windows Forms.
+Kõik Timer-objektid on määratud System.Windows.Forms.Timer tüübi kaudu.

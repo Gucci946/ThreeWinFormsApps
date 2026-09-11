@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ThreeWinFormsApps": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}
